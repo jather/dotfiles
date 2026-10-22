@@ -5,6 +5,7 @@ $links = [ordered]@{
   "$HOME\.glzr\glazewm"         = "$PSScriptRoot\glazewm\.glzr\glazewm"
   "$HOME\.glzr\zebar"           = "$PSScriptRoot\zebar\.glzr\zebar"
   "$HOME\.config\tacky-borders" = "$PSScriptRoot\tacky-borders\.config\tacky-borders"
+  "$HOME\.config\wezterm"       = "$PSScriptRoot\wezterm\.config\wezterm"
 }
 
 foreach ($l in $links.GetEnumerator()) {
