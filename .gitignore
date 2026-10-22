@@ -2,3 +2,5 @@ errors.log
 *.bak
 .marketplace/
 thearturca.*
+*.log
+*.sock

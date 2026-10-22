@@ -120,3 +120,6 @@ export PATH="$HOME/.local/opt/infer/bin:$PATH"
 if [[ $TERM_PROGRAM == WezTerm && -z $WEZTERM_EXECUTABLE ]]; then
   export WEZTERM_EXECUTABLE=wezterm
 fi
+
+# Machine-local settings and secrets (not tracked in dotfiles)
+[ -f ~/.zshrc.local ] && source ~/.zshrc.local
