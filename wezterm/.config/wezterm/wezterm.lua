@@ -87,6 +87,10 @@ config.ssh_domains = {
         multiplexing = 'None',
     },
 }
+config.keys = {
+    -- New tab in WSL over SSH (bypasses ConPTY)
+    { key = 'S', mods = 'CTRL|SHIFT', action = wezterm.action.SpawnTab { DomainName = 'WSL-SSH' } },
+}
 config.enable_tab_bar = true
 config.hide_tab_bar_if_only_one_tab = false
 config.use_fancy_tab_bar = false
