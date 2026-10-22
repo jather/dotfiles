@@ -1,0 +1,15 @@
+[user]
+	name = jather
+	email = 31395687+jather@users.noreply.github.com
+[init]
+	defaultBranch = main
+[core]
+	editor = nvim
+[credential "https://github.com"]
+	helper = 
+	helper = !/home/jather/.local/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/home/jather/.local/bin/gh auth git-credential
+[pull]
+	rebase = true
