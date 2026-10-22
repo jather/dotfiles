@@ -1,0 +1,55 @@
+{
+  "$schema": "https://github.com/glzr-io/zebar/raw/v3.1.0/resources/zpack-schema.json",
+  "name": "jather-rose-pine-moon",
+  "version": "0.1.0",
+  "description": "Personally customized Rose Pine Moon bar for GlazeWM, forked from thearturca/zebar-rose-pine-bar",
+  "tags": [
+    "workspaces",
+    "rose-pine",
+    "media",
+    "glazewm"
+  ],
+  "previewImages": [
+    "assets\\preview_1.png"
+  ],
+  "repositoryUrl": "https://github.com/thearturca/zebar-rose-pine-bar",
+  "widgets": [
+    {
+      "name": "bar-glazewm",
+      "htmlPath": "./dist/src/widgets/bar/glazewm/index.html",
+      "zOrder": "normal",
+      "shownInTaskbar": false,
+      "focused": false,
+      "resizable": false,
+      "transparent": true,
+      "includeFiles": [
+        "dist/**/*"
+      ],
+      "caching": {
+        "defaultDuration": 604800,
+        "rules": []
+      },
+      "privileges": {
+        "shellCommands": []
+      },
+      "presets": [
+        {
+          "name": "default",
+          "anchor": "top_center",
+          "offsetX": "0px",
+          "offsetY": "2px",
+          "width": "100%",
+          "height": "40px",
+          "monitorSelection": {
+            "type": "all"
+          },
+          "dockToEdge": {
+            "enabled": false,
+            "edge": null,
+            "windowMargin": "0px"
+          }
+        }
+      ]
+    }
+  ]
+}
